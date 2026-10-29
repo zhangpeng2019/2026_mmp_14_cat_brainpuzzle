@@ -1,0 +1,17 @@
+Lich_clothes.png
+Lich_hair.png
+Lich_shoe.png
+Lich_sickle.png
+Vampire_bat.png
+Vampire_clothes.png
+Vampire_hair.png
+Vampire_mouth.png
+Witch_ball.png
+Witch_clothes.png
+Witch_hair.png
+Witch_hat.png
+bg.png
+files.md
+frame.png
+scissors.png
+wich_cloak.png

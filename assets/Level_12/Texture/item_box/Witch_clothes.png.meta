@@ -1,0 +1,137 @@
+{
+  "ver": "1.0.27",
+  "importer": "image",
+  "imported": true,
+  "uuid": "290e1919-5df8-45ac-8399-d530985960c2",
+  "files": [
+    ".json",
+    ".png"
+  ],
+  "subMetas": {
+    "6c48a": {
+      "importer": "texture",
+      "uuid": "290e1919-5df8-45ac-8399-d530985960c2@6c48a",
+      "displayName": "Witch_clothes",
+      "id": "6c48a",
+      "name": "texture",
+      "userData": {
+        "wrapModeS": "clamp-to-edge",
+        "wrapModeT": "clamp-to-edge",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuid": "290e1919-5df8-45ac-8399-d530985960c2",
+        "visible": false,
+        "imageUuidOrDatabaseUri": "290e1919-5df8-45ac-8399-d530985960c2"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "f9941": {
+      "importer": "sprite-frame",
+      "uuid": "290e1919-5df8-45ac-8399-d530985960c2@f9941",
+      "displayName": "Witch_clothes",
+      "id": "f9941",
+      "name": "spriteFrame",
+      "userData": {
+        "trimType": "custom",
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": -0.5,
+        "offsetY": 0,
+        "trimX": 18,
+        "trimY": 1,
+        "width": 122,
+        "height": 157,
+        "rawWidth": 159,
+        "rawHeight": 159,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "textureUuid": "290e1919-5df8-45ac-8399-d530985960c2@6c48a",
+        "imageUuid": "290e1919-5df8-45ac-8399-d530985960c2",
+        "atlasUuid": "",
+        "vertices": {
+          "rawPosition": [
+            -61,
+            -78.5,
+            0,
+            61,
+            -78.5,
+            0,
+            -61,
+            78.5,
+            0,
+            61,
+            78.5,
+            0
+          ],
+          "indexes": [
+            0,
+            1,
+            2,
+            2,
+            1,
+            3
+          ],
+          "uv": [
+            18,
+            158,
+            140,
+            158,
+            18,
+            1,
+            140,
+            1
+          ],
+          "nuv": [
+            0.11320754716981132,
+            0.006289308176100629,
+            0.8805031446540881,
+            0.006289308176100629,
+            0.11320754716981132,
+            0.9937106918238994,
+            0.8805031446540881,
+            0.9937106918238994
+          ],
+          "minPos": [
+            -61,
+            -78.5,
+            0
+          ],
+          "maxPos": [
+            61,
+            78.5,
+            0
+          ]
+        },
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "290e1919-5df8-45ac-8399-d530985960c2@6c48a"
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "type": "sprite-frame",
+    "hasAlpha": true,
+    "fixAlphaTransparencyArtifacts": false,
+    "redirect": "290e1919-5df8-45ac-8399-d530985960c2@6c48a"
+  }
+}
