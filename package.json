@@ -1,0 +1,24 @@
+{
+  "name": "cat-brainpuzzle",
+  "type": "2d",
+  "uuid": "b4583699-d901-49fb-8735-d30ed08496ee",
+  "creator": {
+    "version": "3.8.7"
+  },
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test": "node tools/validate-project.cjs && node tools/test-data.cjs && node tools/test-framework.cjs && node tools/validate-migration.cjs && node tools/test-game-storage.cjs",
+    "typecheck": "tsc --noEmit -p tsconfig.json",
+    "build:web": "powershell -ExecutionPolicy Bypass -File tools/build_web.ps1",
+    "test:runtime": "node tools/test-brainpuzzle-runtime.cjs"
+  },
+  "devDependencies": {
+    "typescript": "~5.4.5",
+    "playwright": "1.62.1"
+  },
+  "description": "Brain Puzzle: all 87 source levels integrated with Cat Framework",
+  "engines": {
+    "node": ">=20"
+  }
+}
