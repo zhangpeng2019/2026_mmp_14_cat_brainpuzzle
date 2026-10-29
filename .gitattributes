@@ -1,0 +1,5 @@
+* text=auto eol=lf
+# Preserve imported source bytes so the SHA-256 migration manifest also verifies after checkout.
+assets/** -text
+*.png binary
+*.mp3 binary
