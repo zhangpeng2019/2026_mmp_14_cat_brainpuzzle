@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>frames</key>
+	<dict>
+		<key>failure_title.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteOffset</key>
+			<string>{0,-65}</string>
+			<key>spriteSize</key>
+			<string>{829,316}</string>
+			<key>spriteSourceSize</key>
+			<string>{829,450}</string>
+			<key>textureRect</key>
+			<string>{{1,445},{829,316}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		<key>settlement_title.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteOffset</key>
+			<string>{0,-2}</string>
+			<key>spriteSize</key>
+			<string>{829,442}</string>
+			<key>spriteSourceSize</key>
+			<string>{829,450}</string>
+			<key>textureRect</key>
+			<string>{{1,1},{829,442}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>metadata</key>
+	<dict>
+		<key>format</key>
+		<integer>3</integer>
+		<key>pixelFormat</key>
+		<string>RGBA8888</string>
+		<key>premultiplyAlpha</key>
+		<false/>
+		<key>realTextureFileName</key>
+		<string>settlement.png</string>
+		<key>textureFileName</key>
+		<string>settlement.png</string>
+		<key>size</key>
+		<string>{831,762}</string>
+	</dict>
+</dict>
+</plist>

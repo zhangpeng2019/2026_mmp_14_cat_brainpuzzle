@@ -1,0 +1,13 @@
+{
+  "enabled": false,
+  "logEnabled": true,
+  "baseUrl": "http://127.0.0.1:28515",
+  "externalBaseUrl": "",
+  "gameId": "cat_brainpuzzle",
+  "initializeOnMissing": true,
+  "timeoutMs": 10000,
+  "saveDebounceMs": 500,
+  "retryBaseMs": 2000,
+  "retryMaxMs": 30000,
+  "headers": {}
+}

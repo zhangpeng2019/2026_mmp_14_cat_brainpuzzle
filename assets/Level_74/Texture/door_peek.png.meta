@@ -1,0 +1,137 @@
+{
+  "ver": "1.0.27",
+  "importer": "image",
+  "imported": true,
+  "uuid": "06214cf8-1202-4dbd-b4c3-5ef9c19ade2b",
+  "files": [
+    ".json",
+    ".png"
+  ],
+  "subMetas": {
+    "6c48a": {
+      "importer": "texture",
+      "uuid": "06214cf8-1202-4dbd-b4c3-5ef9c19ade2b@6c48a",
+      "displayName": "door_peek",
+      "id": "6c48a",
+      "name": "texture",
+      "userData": {
+        "wrapModeS": "clamp-to-edge",
+        "wrapModeT": "clamp-to-edge",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuid": "06214cf8-1202-4dbd-b4c3-5ef9c19ade2b",
+        "visible": false,
+        "imageUuidOrDatabaseUri": "06214cf8-1202-4dbd-b4c3-5ef9c19ade2b"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "f9941": {
+      "importer": "sprite-frame",
+      "uuid": "06214cf8-1202-4dbd-b4c3-5ef9c19ade2b@f9941",
+      "displayName": "door_peek",
+      "id": "f9941",
+      "name": "spriteFrame",
+      "userData": {
+        "trimType": "custom",
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 0,
+        "offsetY": 0,
+        "trimX": 0,
+        "trimY": 0,
+        "width": 168,
+        "height": 263,
+        "rawWidth": 168,
+        "rawHeight": 263,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "textureUuid": "06214cf8-1202-4dbd-b4c3-5ef9c19ade2b@6c48a",
+        "imageUuid": "06214cf8-1202-4dbd-b4c3-5ef9c19ade2b",
+        "atlasUuid": "",
+        "vertices": {
+          "rawPosition": [
+            -84,
+            -131.5,
+            0,
+            84,
+            -131.5,
+            0,
+            -84,
+            131.5,
+            0,
+            84,
+            131.5,
+            0
+          ],
+          "indexes": [
+            0,
+            1,
+            2,
+            2,
+            1,
+            3
+          ],
+          "uv": [
+            0,
+            263,
+            168,
+            263,
+            0,
+            0,
+            168,
+            0
+          ],
+          "nuv": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            1,
+            1
+          ],
+          "minPos": [
+            -84,
+            -131.5,
+            0
+          ],
+          "maxPos": [
+            84,
+            131.5,
+            0
+          ]
+        },
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "06214cf8-1202-4dbd-b4c3-5ef9c19ade2b@6c48a"
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "type": "sprite-frame",
+    "hasAlpha": true,
+    "fixAlphaTransparencyArtifacts": false,
+    "redirect": "06214cf8-1202-4dbd-b4c3-5ef9c19ade2b@6c48a"
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "ver": "1.0.27",
+  "importer": "image",
+  "imported": true,
+  "uuid": "74490ad3-9827-41d6-9845-72a5af2a3dc5",
+  "files": [
+    ".json",
+    ".png"
+  ],
+  "subMetas": {
+    "6c48a": {
+      "importer": "texture",
+      "uuid": "74490ad3-9827-41d6-9845-72a5af2a3dc5@6c48a",
+      "displayName": "girl_right_squat",
+      "id": "6c48a",
+      "name": "texture",
+      "userData": {
+        "wrapModeS": "clamp-to-edge",
+        "wrapModeT": "clamp-to-edge",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuid": "74490ad3-9827-41d6-9845-72a5af2a3dc5",
+        "visible": false,
+        "imageUuidOrDatabaseUri": "74490ad3-9827-41d6-9845-72a5af2a3dc5"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "f9941": {
+      "importer": "sprite-frame",
+      "uuid": "74490ad3-9827-41d6-9845-72a5af2a3dc5@f9941",
+      "displayName": "girl_right_squat",
+      "id": "f9941",
+      "name": "spriteFrame",
+      "userData": {
+        "trimType": "custom",
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 0,
+        "offsetY": 0,
+        "trimX": 0,
+        "trimY": 0,
+        "width": 336,
+        "height": 438,
+        "rawWidth": 336,
+        "rawHeight": 438,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "textureUuid": "74490ad3-9827-41d6-9845-72a5af2a3dc5@6c48a",
+        "imageUuid": "74490ad3-9827-41d6-9845-72a5af2a3dc5",
+        "atlasUuid": "",
+        "vertices": {
+          "rawPosition": [
+            -168,
+            -219,
+            0,
+            168,
+            -219,
+            0,
+            -168,
+            219,
+            0,
+            168,
+            219,
+            0
+          ],
+          "indexes": [
+            0,
+            1,
+            2,
+            2,
+            1,
+            3
+          ],
+          "uv": [
+            0,
+            438,
+            336,
+            438,
+            0,
+            0,
+            336,
+            0
+          ],
+          "nuv": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            1,
+            1
+          ],
+          "minPos": [
+            -168,
+            -219,
+            0
+          ],
+          "maxPos": [
+            168,
+            219,
+            0
+          ]
+        },
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "74490ad3-9827-41d6-9845-72a5af2a3dc5@6c48a"
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "type": "sprite-frame",
+    "hasAlpha": true,
+    "fixAlphaTransparencyArtifacts": false,
+    "redirect": "74490ad3-9827-41d6-9845-72a5af2a3dc5@6c48a"
+  }
+}

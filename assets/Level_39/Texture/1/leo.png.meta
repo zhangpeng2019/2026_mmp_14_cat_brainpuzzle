@@ -1,0 +1,137 @@
+{
+  "ver": "1.0.27",
+  "importer": "image",
+  "imported": true,
+  "uuid": "a3a9e39e-4a68-4d92-871f-450f16863dab",
+  "files": [
+    ".json",
+    ".png"
+  ],
+  "subMetas": {
+    "6c48a": {
+      "importer": "texture",
+      "uuid": "a3a9e39e-4a68-4d92-871f-450f16863dab@6c48a",
+      "displayName": "leo",
+      "id": "6c48a",
+      "name": "texture",
+      "userData": {
+        "wrapModeS": "clamp-to-edge",
+        "wrapModeT": "clamp-to-edge",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuid": "a3a9e39e-4a68-4d92-871f-450f16863dab",
+        "visible": false,
+        "imageUuidOrDatabaseUri": "a3a9e39e-4a68-4d92-871f-450f16863dab"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "f9941": {
+      "importer": "sprite-frame",
+      "uuid": "a3a9e39e-4a68-4d92-871f-450f16863dab@f9941",
+      "displayName": "leo",
+      "id": "f9941",
+      "name": "spriteFrame",
+      "userData": {
+        "trimType": "custom",
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 0,
+        "offsetY": 0,
+        "trimX": 2,
+        "trimY": 2,
+        "width": 104,
+        "height": 113,
+        "rawWidth": 108,
+        "rawHeight": 117,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "textureUuid": "a3a9e39e-4a68-4d92-871f-450f16863dab@6c48a",
+        "imageUuid": "a3a9e39e-4a68-4d92-871f-450f16863dab",
+        "atlasUuid": "",
+        "vertices": {
+          "rawPosition": [
+            -52,
+            -56.5,
+            0,
+            52,
+            -56.5,
+            0,
+            -52,
+            56.5,
+            0,
+            52,
+            56.5,
+            0
+          ],
+          "indexes": [
+            0,
+            1,
+            2,
+            2,
+            1,
+            3
+          ],
+          "uv": [
+            2,
+            115,
+            106,
+            115,
+            2,
+            2,
+            106,
+            2
+          ],
+          "nuv": [
+            0.018518518518518517,
+            0.017094017094017096,
+            0.9814814814814815,
+            0.017094017094017096,
+            0.018518518518518517,
+            0.9829059829059829,
+            0.9814814814814815,
+            0.9829059829059829
+          ],
+          "minPos": [
+            -52,
+            -56.5,
+            0
+          ],
+          "maxPos": [
+            52,
+            56.5,
+            0
+          ]
+        },
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "a3a9e39e-4a68-4d92-871f-450f16863dab@6c48a"
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "type": "sprite-frame",
+    "hasAlpha": true,
+    "fixAlphaTransparencyArtifacts": false,
+    "redirect": "a3a9e39e-4a68-4d92-871f-450f16863dab@6c48a"
+  }
+}
