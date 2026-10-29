@@ -1,0 +1,63 @@
+// @ts-nocheck
+// Recovered from code-analysis/decrypted/assets/main/index.b186b.js; module chunks:///_virtual/ta-event-keys.ts
+// Method bodies originate in this APK. TypeScript types and author formatting were not retained.
+import { cclegacy as __rea_outer__ } from "cc";
+let __recovered_export_0;
+__rea_outer__._RF.push({}, "e33d1jzJSpD7o50jH2K5uvg", "ta-event-keys", void 0);
+__recovered_export_0 = {
+  Start_Login: "Login",
+  GameLoading: "game_loading",
+  GameStart: "game_start",
+  Game_step_click: "game_step_click",
+  Windows: "windows",
+  GameEnd: "game_end",
+  EnterLobby: "enter_lobby",
+  Role_choose: "role_choose",
+  Role_Select: "role_select",
+  Loading: "loading",
+  item_get: "item_get",
+  playermu: "playermu",
+  coin_get: "coin_get",
+  coin_spend: "coin_spend",
+  Ads_Empty: "ads_empty",
+  Ads_PlayFail: "ads_play_fail",
+  Ads_Inter_Stage: "Ads_Inter_Stage",
+  Ads_Show: "Ads_Show",
+  Ads_Click: "Ads_Click",
+  Ads_Suc: "Ads_Suc",
+  Ads_Reward: "Ads_Reward",
+  Ads_Interstitial_Stage: "Ads_Interstitial_Stage",
+  Ads_Interstitial_Pre: "Ads_Interstitial_Pre",
+  Ads_Interstitial: "Ads_Interstitial",
+  Ads_Native: "Ads_Native",
+  Ads_Native_Click: "Ads_Native_Click",
+  Ads_Load: "Ads_Load",
+  Ads_Request: "Ads_Request",
+  Ad_Revenue_Postback: "Ad_Revenue_Postback",
+  Ads_Show_Failed: "Ads_Show_Failed",
+  ResourceMiss: "ResourceMiss",
+  BackLevel: "BackLevel",
+  ResDown: "ResDown",
+  Level_Start: "Level_Start",
+  Level_Load: "level_load",
+  Level_Fail: "Level_Fail",
+  Level_Fail_btn: "Level_Fail_btn",
+  Level_Quit: "Level_Quit",
+  Level_Victory: "Level_Victory",
+  Level_Victory_btn: "Level_Victory_btn",
+  Level_Pause_btn: "Level_Pause_btn",
+  Game_Reset: "Game_Reset",
+  Level_Coming: "level_coming",
+  Props_Get: "Props_Get",
+  Props_Use: "Props_Use",
+  ClickEntry: "ClickEntry",
+  SkinClick: "SkinClick",
+  AlbumClick: "AlbumClick",
+  AlbumFull: "AlbumFull",
+  ClickMonth: "ClickMonth",
+  PlayDaily: "PlayDaily",
+  DailyReward: "DailyReward",
+  Rateus: "rateus"
+};
+__rea_outer__._RF.pop();
+export { __recovered_export_0 as TAEventKeys };
