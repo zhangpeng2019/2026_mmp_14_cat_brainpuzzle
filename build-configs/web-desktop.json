@@ -1,0 +1,28 @@
+{
+  "name": "Cat Brain Puzzle",
+  "platform": "web-desktop",
+  "buildPath": "project://build",
+  "outputName": "web-desktop",
+  "debug": true,
+  "sourceMaps": true,
+  "startScene": "8bc6e5ba-b6a3-46d5-8a2e-c780d7f772be",
+  "scenes": [
+    {
+      "url": "db://assets/scenes/Boot.scene",
+      "uuid": "8bc6e5ba-b6a3-46d5-8a2e-c780d7f772be"
+    },
+    {
+      "url": "db://assets/scenes/Home.scene",
+      "uuid": "e3635ccd-aab1-47fd-9dc7-ad7282947995"
+    },
+    {
+      "url": "db://assets/scenes/Game.scene",
+      "uuid": "8ed2eccf-7ebb-4a39-8dc1-ccba5ca98fdd"
+    }
+  ],
+  "packages": {
+    "web-desktop": {
+      "embedWebDebugger": false
+    }
+  }
+}
