@@ -1,0 +1,15 @@
+/library/
+/temp/
+/local/
+/build/
+/profiles/
+/node_modules/
+__pycache__/
+*.pyc
+.DS_Store
+# Creator account/service panel state is local to this machine.
+/settings/v2/packages/information.json
+/settings/v2/packages/cocos-service.json
+
+# Native machine-local CMake overrides
+/native/engine/common/localCfg.cmake
