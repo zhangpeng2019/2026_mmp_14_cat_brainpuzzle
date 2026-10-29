@@ -1,0 +1,16 @@
+{
+  "ver": "1.2.0",
+  "importer": "directory",
+  "imported": true,
+  "uuid": "19b65fdf-0fa7-4e6b-9180-bf63eb5b3128",
+  "files": [],
+  "subMetas": {},
+  "userData": {
+    "isBundle": true,
+    "bundleName": "Level_45",
+    "priority": 1,
+    "compressionType": {},
+    "isRemoteBundle": {},
+    "isAppendBuildTree": true
+  }
+}
