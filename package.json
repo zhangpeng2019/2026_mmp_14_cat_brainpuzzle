@@ -8,16 +8,20 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "test": "node tools/validate-project.cjs && node tools/test-data.cjs && node tools/test-framework.cjs && node tools/validate-migration.cjs && node tools/test-game-storage.cjs",
+    "test": "node tools/validate-project.cjs && node tools/test-data.cjs && node tools/test-framework.cjs && node tools/validate-legacy-archive.cjs && node tools/test-game-storage.cjs && node tools/test-case-clock.cjs && node tools/test-cat-detective.cjs && node tools/test-case-art-layout.cjs && node tools/validate-candy-art.cjs",
     "typecheck": "tsc --noEmit -p tsconfig.json",
     "build:web": "powershell -ExecutionPolicy Bypass -File tools/build_web.ps1",
-    "test:runtime": "node tools/test-brainpuzzle-runtime.cjs"
+    "test:runtime": "node tools/test-cat-detective-runtime.cjs",
+    "test:archive": "node tools/validate-legacy-archive.cjs",
+    "test:release": "node tools/validate-release.cjs",
+    "test:detective": "node tools/test-cat-detective.cjs",
+    "test:detective:runtime": "node tools/test-cat-detective-runtime.cjs"
   },
   "devDependencies": {
     "typescript": "~5.4.5",
     "playwright": "1.62.1"
   },
-  "description": "Brain Puzzle: all 87 source levels integrated with Cat Framework",
+  "description": "猫咪侦探社：80个原创可玩关卡，原版87关独立归档且不参与打包",
   "engines": {
     "node": ">=20"
   }

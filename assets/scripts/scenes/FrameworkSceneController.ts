@@ -4,6 +4,7 @@ import { LoginMode } from '../framework/network/NetworkConfig';
 import { UIManager } from '../framework/UIManager';
 import { FrameworkScreen } from '../ui/FrameworkScreen';
 import { BrainPuzzleRuntime } from '../features/brainpuzzle/BrainPuzzleRuntime';
+import { CandyArt } from '../features/cat-detective/CandyArt';
 
 const { ccclass, property } = _decorator;
 
@@ -57,6 +58,7 @@ export class FrameworkSceneController extends Component {
         this.externalServerUrl = FrameworkRuntime.externalServerUrl;
         this.refreshStatus();
         await FrameworkRuntime.initialize();
+        await CandyArt.preloadUI();
     }
 
     /** Every async UI entry point has a retry path and ignores completion after destruction. */
@@ -66,7 +68,7 @@ export class FrameworkSceneController extends Component {
         this.screen?.setBusy(true, message);
         try {
             await action();
-            if (!this.disposed) this.screen?.showMessage('框架已就绪');
+            if (!this.disposed) this.screen?.showMessage('准备好了，开始吧');
         } catch (error) {
             console.error('[FrameworkScene]', error);
             if (!this.disposed) {

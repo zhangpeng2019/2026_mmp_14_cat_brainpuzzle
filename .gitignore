@@ -1,15 +1,36 @@
+# Creator 缓存、构建产物与本机配置
 /library/
 /temp/
 /local/
 /build/
 /profiles/
 /node_modules/
+/logs/
+
+# 旧版资源归档：保留本地文件，归档校验仍依赖这些目录
+/archive/legacy-brainpuzzle/
+/archive/cat-detective-v1-art/
+
+# 工具缓存与系统临时文件
 __pycache__/
 *.pyc
 .DS_Store
-# Creator account/service panel state is local to this machine.
+Thumbs.db
+Desktop.ini
+*.log
+
+# Creator 本机账号与服务面板状态
 /settings/v2/packages/information.json
 /settings/v2/packages/cocos-service.json
 
-# Native machine-local CMake overrides
+# 原生构建缓存与本机配置，保留原生工程源码
 /native/engine/common/localCfg.cmake
+/native/engine/android/.gradle/
+/native/engine/android/.idea/
+/native/engine/android/.cxx/
+/native/engine/android/build/
+/native/engine/android/app/.cxx/
+/native/engine/android/app/build/
+/native/engine/android/instantapp/.cxx/
+/native/engine/android/instantapp/build/
+/native/engine/android/local.properties

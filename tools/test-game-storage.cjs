@@ -23,6 +23,15 @@ async function main() {
   const copy=api.getStorageSync('player');copy.completed.push(7);
   assert.deepEqual(api.getStorageSync('player'),{hints:3,completed:[2,4],music:false});
   api.setStorageSync('string',null);assert.equal(api.getStorageSync('string','missing'),'missing');
+  const {CatDetectiveState}=load('features/cat-detective/CatDetectiveState');
+  const {CASE_DATA}=load('features/cat-detective/CaseData');
+  const {CaseSession}=load('features/cat-detective/CaseSession');
+  const previousCase=new CaseSession(CASE_DATA[17]);previousCase.act(CASE_DATA[17].solution[0]);
+  api.setStorageSync(CatDetectiveState.key,{version:1,cleared:[1,18],sessions:{18:previousCase.serialize()}});
+  assert.deepEqual(CatDetectiveState.read().cleared,[1,18],'80关版本保留前18关结案记录');
+  assert.equal(new CaseSession(CASE_DATA[17],CatDetectiveState.read().sessions['18']).completed.length,1,'扩展后恢复原逐步存档');
+  api.setStorageSync(CatDetectiveState.key,{version:1,cleared:[1,18,80,81,0,1],sessions:{18:previousCase.serialize()}});
+  assert.deepEqual(CatDetectiveState.read().cleared,[1,18,80],'接受新80关，去重并排除未知编号');
   assert.throws(()=>FrameworkRuntime.store.replace({entries:{bad:12}}));
   await FrameworkRuntime.flush();
   FrameworkRuntime.dispose();
